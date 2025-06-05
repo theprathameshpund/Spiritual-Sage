@@ -87,7 +87,7 @@ Then start the backend
 npm run dev
 ```
 
-# 3. Setup Frontend
+### 3. Setup Frontend
 ```bash
 cd ../frontend
 npm install
@@ -107,7 +107,7 @@ npm start       # Start development server
 npm run build   # Build frontend for production
 ```
 
-### 🧘‍♀️ Chat with These Divine Entities
+# 🧘‍♀️ Chat with These Divine Entities
 
 | Character            | Domain                            |
 | -------------------- | --------------------------------- |
@@ -117,7 +117,7 @@ npm run build   # Build frontend for production
 | ☸️ Gautama Buddha    | Peace, Mindfulness, Enlightenment |
 
 
-### 🤝 Contributing
+## 🤝 Contributing
 Fork the repo
 
 Create your feature branch (git checkout -b feature/amazing-feature)
@@ -129,6 +129,6 @@ Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
 
-### 📫 Contact & Support
+## 📫 Contact & Support
 For queries, feedback, or support, please contact:
 📧 zenithx996@gmail.com
