@@ -68,11 +68,11 @@ cd KrishnaGPT
 ```
 
 ###2. Setup Backend
-```bash
+
 cd backend
 npm install
 cp .env.example .env
-```
+
 
 Edit .env and add:
 
