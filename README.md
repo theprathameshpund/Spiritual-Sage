@@ -95,13 +95,13 @@ npm start
 ```
 App will run at: http://localhost:3000
 
-## 🔄 Available Scripts
+# 🔄 Available Scripts
 
-# Backend
+### Backend
 ```bash
 npm run dev     # Start backend with nodemon
 ```
-# Frontend
+### Frontend
 ```bash
 npm start       # Start development server
 npm run build   # Build frontend for production
