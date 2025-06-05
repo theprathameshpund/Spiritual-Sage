@@ -58,27 +58,32 @@ KrishnaGPT/
 
 ---
 
-### 🔧 Installation
-
-#### 1. Clone the Repository
-
+🔧 Installation
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/your-username/KrishnaGPT.git
 cd KrishnaGPT
-
-
-
+2. Setup Backend
+bash
+Copy
+Edit
 cd backend
 npm install
 cp .env.example .env  # Add your environment variables
 npm run dev
-
-#Environment variables to add in .env:
+Environment variables to set in .env:
+env
+Copy
+Edit
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 OPENAI_API_KEY=your_openai_api_key
-
-
-#3. Setup Frontend
+3. Setup Frontend
+bash
+Copy
+Edit
 cd ../frontend
 npm install
 npm start
@@ -87,17 +92,18 @@ Your app will now be running at: http://localhost:3000
 🔄 Available Scripts
 Backend
 bash
-Copy code
-npm run dev   # Start server with nodemon
+Copy
+Edit
+npm run dev     # Start server with nodemon
 Frontend
 bash
-Copy code
-npm start     # Start development server
-npm run build # Build for production
+Copy
+Edit
+npm start       # Start development server
+npm run build   # Build for production
 📸 Screenshots
-<!-- Add your own screenshots here -->
-Copy code
 📷 Coming Soon!
+
 🧘‍♀️ Chat with These Divine Entities
 Character	Domain
 🦚 Lord Krishna	Dharma, Karma, Bhagavad Gita
@@ -119,40 +125,38 @@ Character	Domain
  Multi-language support
 
 🤝 Contributing
-Contributions are welcome! To contribute:
+Contributions are welcome!
+To contribute:
 
 Fork the repository
 
-Create your feature branch: git checkout -b feature-name
+Create your feature branch:
 
-Commit your changes: git commit -m "Add feature"
+bash
+Copy
+Edit
+git checkout -b feature-name
+Commit your changes:
 
-Push to the branch: git push origin feature-name
+bash
+Copy
+Edit
+git commit -m "Add feature"
+Push to the branch:
 
+bash
+Copy
+Edit
+git push origin feature-name
 Open a Pull Request
 
 🛡 License
 This project is licensed under the MIT License.
 
 📫 Contact & Support
-For queries, feedback, or support:
-
 📧 Email: your-email@example.com
 
 🌐 Website: your-website.com
 
-"The greatest religion is to be true to your own nature. Have faith in yourselves." – Swami Vivekananda
-
-yaml
-Copy code
-
----
-
-If you'd like me to personalize the contact information, add badge icons (like GitHub stars, forks, build status), or include an API usage section, let me know!
-
-
-
-
-
-
-
+"The greatest religion is to be true to your own nature. Have faith in yourselves."
+— Swami Vivekanand
