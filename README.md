@@ -62,18 +62,17 @@ KrishnaGPT/
 
 ### 1. Clone the Repository
 
-
+```bash
 git clone https://github.com/your-username/KrishnaGPT.git
 cd KrishnaGPT
+```
 
----
-
-###2. Setup Backend
-
+### 2. Setup Backend
+```bash
 cd backend
 npm install
 cp .env.example .env
-
+```
 
 Edit .env and add:
 
@@ -88,7 +87,7 @@ Then start the backend
 npm run dev
 ```
 
-#3. Setup Frontend
+# 3. Setup Frontend
 ```bash
 cd ../frontend
 npm install
@@ -96,19 +95,19 @@ npm start
 ```
 App will run at: http://localhost:3000
 
-##🔄 Available Scripts
+## 🔄 Available Scripts
 
-#Backend
+# Backend
 ```bash
 npm run dev     # Start backend with nodemon
 ```
-#Frontend
+# Frontend
 ```bash
 npm start       # Start development server
 npm run build   # Build frontend for production
 ```
 
-###🧘‍♀️ Chat with These Divine Entities
+### 🧘‍♀️ Chat with These Divine Entities
 
 | Character            | Domain                            |
 | -------------------- | --------------------------------- |
@@ -118,7 +117,7 @@ npm run build   # Build frontend for production
 | ☸️ Gautama Buddha    | Peace, Mindfulness, Enlightenment |
 
 
-###🤝 Contributing
+### 🤝 Contributing
 Fork the repo
 
 Create your feature branch (git checkout -b feature/amazing-feature)
@@ -130,6 +129,6 @@ Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
 
 
-###📫 Contact & Support
+### 📫 Contact & Support
 For queries, feedback, or support, please contact:
 📧 zenithx996@gmail.com
