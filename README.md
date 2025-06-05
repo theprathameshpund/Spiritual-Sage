@@ -67,7 +67,7 @@ git clone https://github.com/your-username/KrishnaGPT.git
 cd KrishnaGPT
 ```
 
-#2. Setup Backend
+###2. Setup Backend
 ```bash
 cd backend
 npm install
