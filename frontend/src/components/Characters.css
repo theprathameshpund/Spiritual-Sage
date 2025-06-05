@@ -1,0 +1,71 @@
+/* Characters Page Styling */
+.characters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Heading Styling */
+h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #0dcaf0; /* Light blue color */
+    text-shadow: 2px 2px 5px rgba(13, 202, 240, 0.5);
+}
+
+/* Character List Styling */
+.character-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Character Card */
+.character-card {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    background: #1e1e1e; /* Dark gray background */
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hover Effects */
+.character-card:hover {
+    background: #0dcaf0; /* Blue on hover */
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+}
+
+/* Character Image */
+.character-card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 3px solid #0dcaf0;
+    transition: transform 0.3s;
+}
+
+.character-card:hover img {
+    transform: rotate(5deg);
+}
+
+/* Character Name */
+.character-card h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 10px;
+}
