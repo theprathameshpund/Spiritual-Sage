@@ -62,10 +62,11 @@ KrishnaGPT/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/your-username/KrishnaGPT.git
 cd KrishnaGPT
-```
+
+---
 
 ###2. Setup Backend
 
