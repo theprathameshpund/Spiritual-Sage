@@ -58,23 +58,26 @@ KrishnaGPT/
 
 ---
 
-🔧 Installation
-1. Clone the Repository
-bash
-Copy
-Edit
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/KrishnaGPT.git
 cd KrishnaGPT
+
 2. Setup Backend
 bash
 Copy
 Edit
 cd backend
 npm install
-cp .env.example .env  # Add your environment variables
+cp .env.example .env
+# Add your environment variables in the .env file
 npm run dev
-Environment variables to set in .env:
-env
+Required Environment Variables (.env):
+ini
 Copy
 Edit
 PORT=5000
@@ -94,13 +97,13 @@ Backend
 bash
 Copy
 Edit
-npm run dev     # Start server with nodemon
+npm run dev   # Start server with nodemon
 Frontend
 bash
 Copy
 Edit
-npm start       # Start development server
-npm run build   # Build for production
+npm start     # Start development server
+npm run build # Build for production
 📸 Screenshots
 📷 Coming Soon!
 
@@ -125,12 +128,11 @@ Character	Domain
  Multi-language support
 
 🤝 Contributing
-Contributions are welcome!
-To contribute:
+We welcome contributions! To contribute:
 
 Fork the repository
 
-Create your feature branch:
+Create a feature branch:
 
 bash
 Copy
@@ -142,7 +144,7 @@ bash
 Copy
 Edit
 git commit -m "Add feature"
-Push to the branch:
+Push to your fork:
 
 bash
 Copy
@@ -159,4 +161,15 @@ This project is licensed under the MIT License.
 🌐 Website: your-website.com
 
 "The greatest religion is to be true to your own nature. Have faith in yourselves."
-— Swami Vivekanand
+— Swami Vivekananda
+
+vbnet
+Copy
+Edit
+
+### ✅ Notes:
+- This is fully Markdown-compliant.
+- Works perfectly on GitHub and Markdown editors.
+- Replace placeholders like `your-email@example.com`, `your-website.com`, and the GitHub repo URL.
+
+Let me know if you’d like this enhanced with badges, images,
